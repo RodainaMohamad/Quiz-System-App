@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../screens/screen.dart';
-import '../constants.dart';
-import '../who_are_u.dart';
-import '../widgets/my_password_field.dart';
-import '../widgets/my_text_button.dart';
-import '../widgets/my_text_field.dart';
+import 'package:quiz_system/Core/Constants/Strings/strings.dart';
+import 'package:quiz_system/Core/widgets/my_password_field.dart';
+import 'package:quiz_system/Core/widgets/my_text_button.dart';
+import 'package:quiz_system/Core/widgets/my_text_field.dart';
+import 'screen.dart';
+import 'who_are_u.dart';
 
 class SignInPage extends StatefulWidget {
   @override

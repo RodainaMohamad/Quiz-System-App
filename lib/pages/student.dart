@@ -167,7 +167,7 @@ class _QuestionWidgetState extends State<QuestionWidget> {
     super.initState();
     selectedOptionIndex = -1;
     // Initialize the VideoPlayerController outside the AlertDialog
-    _controller = VideoPlayerController.asset('lib/images/failure.mp4');
+    _controller = VideoPlayerController.asset('images/failure.mp4');
   }
 
   @override
@@ -268,11 +268,11 @@ class _QuestionWidgetState extends State<QuestionWidget> {
       }
     } else {
       if (widget.sumMarks == 0) {
-        displayVideo('lib/images/zero.mp4');
+        displayVideo('images/zero.mp4');
       } else if (widget.sumMarks < 3) {
-        displayVideo('lib/images/failure.mp4');
+        displayVideo('images/failure.mp4');
       } else if (widget.sumMarks > 3) {
-        displayVideo('lib/images/morethan3.mp4');}
+        displayVideo('images/morethan3.mp4');}
       else {
         showDialog(
           context: context,

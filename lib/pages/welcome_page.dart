@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../screens/screen.dart';
-import '../constants.dart';
-import '../widgets/my_text_button.dart';
+import 'package:quiz_system/Core/Constants/Strings/strings.dart';
+import 'package:quiz_system/Core/widgets/my_text_button.dart';
+import 'screen.dart';
 
 class WelcomePage extends StatelessWidget {
   static const String routeName = "welcome_page";
@@ -10,7 +10,10 @@ class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("WELCOME! Hope you enjoy!!",style: kButtonText2),backgroundColor: Colors.transparent,elevation: 0,centerTitle: true),
+      appBar: AppBar(
+          title: const Text("WELCOME! Hope you enjoy!!",style: kButtonText2),
+          backgroundColor: Colors.transparent,elevation: 0,centerTitle: true
+      ),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -25,7 +28,7 @@ class WelcomePage extends StatelessWidget {
                         width: MediaQuery.of(context).size.width * 0.9,
                         child: const Image(
                           image:
-                              AssetImage('lib/images/quiz_img.jpg'),
+                              AssetImage('images/quiz_img.jpg'),
                         ),
                       ),
                     ),

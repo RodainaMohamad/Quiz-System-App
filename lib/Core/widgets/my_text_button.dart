@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../constants.dart';
+import 'package:quiz_system/Core/Constants/Strings/strings.dart';
 
 class MyTextButton extends StatelessWidget {
   MyTextButton({

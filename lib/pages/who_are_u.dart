@@ -17,7 +17,7 @@ class who_are_u extends StatelessWidget {
                   backgroundColor: Colors.white,
                   child: CircleAvatar(
                     radius: 80,
-                    backgroundImage: AssetImage('lib/images/quizhci.png'),
+                    backgroundImage: AssetImage('images/quizhci.png'),
                   ),
                 ),
                 const SizedBox(height: 25,),

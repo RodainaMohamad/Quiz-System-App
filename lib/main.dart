@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_system/screens/screen.dart';
-import 'package:quiz_system/student.dart';
-import 'package:quiz_system/doctor.dart';
-import 'package:quiz_system/who_are_u.dart';
+import 'package:quiz_system/pages/screen.dart';
+import 'package:quiz_system/pages/student.dart';
+import 'package:quiz_system/pages/doctor.dart';
+import 'package:quiz_system/pages/who_are_u.dart';
 
 void main() {
   runApp( MyApp());
